@@ -7,7 +7,7 @@ class DownloadAttachment(object):
     def download_attachment(self, file_path):
         global mail, att_path, part
         detach_dir = file_path
-        m = imaplib.IMAP4_SSL("imap.gmail.com", 993)
+        m = imaplib.IMAP4_SSL("imap.googlemail.com", 993)
         m.login('rpamercurialminds@gmail.com', 'Heytherealeesho123')
         m.select("INBOX")
 
