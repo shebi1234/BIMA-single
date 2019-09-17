@@ -50,7 +50,6 @@ regexpy
 requests
 robotframework
 robotframework-archivelibrary
-robotframework-imagehorizonlibrary
 robotframework-imaplibrary
 robotframework-metrics
 robotframework-pabot
